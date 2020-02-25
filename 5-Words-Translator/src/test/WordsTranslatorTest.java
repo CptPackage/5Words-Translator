@@ -18,6 +18,7 @@ public class WordsTranslatorTest {
 	public void translatedTextTest() {
 		final String TEST_TEXT = "The pizza margherita is awesome";
 		assertEquals(true, seleniumTranslatedTextTest(TEST_TEXT));
+		
 	}
 
 	public boolean seleniumTranslatedTextTest(String targetText) {
